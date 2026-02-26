@@ -7,7 +7,7 @@ namespace Environment_Pulse
 {
     internal class Program
     {
-        // Global State - "Hydrated" by individual check methods
+        // Global State - driven by individual check methods
         static float currentFreeSpace;
         static IPStatus currentIPStatus;
         static long currentLatency;
