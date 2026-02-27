@@ -11,11 +11,6 @@ namespace Environment_Pulse
         // GOAL: The "Brain" that fetches API data and fills the report.
         // ==========================================================
 
-        /* STEP 1: Define the Class
-           - Name: NetworkService
-           - Access: public
-        */
-
         /* STEP 2: The "Phone Line" (Setup)
            - Create a single 'static' HttpClient.
            - This stays alive for the whole program to avoid "Socket Exhaustion."
